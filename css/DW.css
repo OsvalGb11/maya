@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Móvil */
+.col-s-1{
+    width: 8.33% !important; 
+}
+.col-s-2{
+    width: 16.66% !important;
+}
+.col-s-3{
+    width: 25% !important; 
+}
+.col-s-4{
+    width: 33.33% !important;
+}
+.col-s-5{
+    width: 41.66% !important;
+}
+.col-s-6{
+    width: 50% !important;
+}
+.col-s-7{
+    width: 58.33% !important;
+}
+.col-s-8{
+    width: 66.66% !important;
+}
+.col-s-9{
+    width: 74.99% !important;
+}
+.col-s-10{
+    width: 83.32% !important;
+}
+.col-s-11{
+    width: 91.65% !important;
+}
+.col-s-12{
+    width: 100% !important;
+}
+
+/* NAVBAR */
+header{
+    float: left;
+    position: relative ;
+    height: 10vh;
+    background-color: transparent;
+    -webkit-transition: background-color .2s;
+}
+nav{
+    float: left;
+    position: relative;
+    /* margin: auto; */
+    height: 10vh;
+    background-color: transparent;
+    -webkit-transition: margin-left .2s;
+}
+ul{
+    position: relative;
+    display: block;
+}
+ul li{
+    position: relative;
+    float: left;
+    /* margin: 1.5vh; */
+padding-left: 20vh;
+    display: block;
+    text-align: center;
+}
+.lisi{
+    display: none;
+}
+.lino{
+    list-style: none;
+    float: left;
+    
+    font-size: 4vh;
+}
+#img{
+    margin-top: -.5vh;
+    margin-left: 5vh;
+    text-align: right;
+}
+#ham{
+    margin-top: -2vh;
+    display: block;
+    position: relative;
+    float: left;
+}
+.azul2{
+    margin-top: 2vh;
+    text-align: right;
+}
+/* FINNAVBAR */
+
+
+
+
+.conta{
+    float: left;
+    background-color: teal;
+    height: auto;
+    padding-right: 2.33%;
+    padding-left: 2.33%;
+}
+.rojo{
+
+    float: left;
+    background-color: red;
+    /* background: url("../img/mtw.jpg");  */
+    height: auto;
+}
+.slo1{
+    margin-top: 2vh;
+    float: left;
+    height: auto;
+    /* background-color: cadetblue; */
+    margin-right: 4.33%;
+}
+.clean1{
+    /* margin-top: 22.5vh; */
+    font-size: 3em;
+    /* margin-left: 15vh; */
+}
+.clean2{
+    /* margin-top: 22.5vh; */
+    font-size: 3em;
+    /* margin-left: 25vh; */
+}
+.slo2{
+    margin-top: 5vh;
+    float: left;
+    height: auto;
+    /* background-color: cornsilk; */
+}
+.azul{
+    background-color: lightblue;
+    height: auto;
+    margin-top: 5vh;
+}
+.amarillo{
+    background-color: yellow;
+    height: auto;
+    margin-top: 5vh;
+}
+.secama1{
+    background-color: darksalmon;
+    float: left;
+    height: auto;
+    margin-right: 16.66%;
+}
+.secama2{
+    margin-top: 5vh;
+    background-color: rebeccapurple;
+    float: left;
+    height: auto;
+}
+.secama3{
+    margin-top: 5vh;
+    background-color: grey;
+    float: left;
+    height: auto;
+    margin-right: 16.66%;
+}
+.secama4{
+    margin-top: 5vh;
+    background-color: coral;
+    float: left;
+    height: auto;
+    margin-bottom: 5vh;
+}
+.morado{
+    /* background-color: purple; */
+    height: auto;
+    margin-top: 5vh;
+}
+.fo{
+    /* margin-top: 10vh; */
+    float: left;
+    padding: 0;
+    background-color: gray;
+    height: auto;
+}
+.titu{
+    padding-top: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+    float: left;
+    /* background-color: coral; */
+    height: auto;
+}
+.contact{
+    padding-right: 2vh;
+    text-align: right;
+    margin-top: 5vh;
+    float: left;
+    /* background-color: darkcyan; */
+    height: auto;
+}
+.mapa{
+    padding-left: 1vh;
+    float: left;
+    height: auto;
+    margin-top: 2vh;
+    padding-top: 3vh;
+}
+.google-maps {
+    position: relative;
+    height: 30vh;
+}
+.slideshow{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.slider li{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.ar{
+    color: black;
+}
+
+
+/* Para tablet */
+@media only screen and (min-width:720px){
+    .col-m-1{
+        width: 8.33% !important;
+    }
+    .col-m-2{
+        width: 16.66% !important;
+    }
+    .col-m-3{
+        width: 25% !important;
+    }
+    .col-m-4{
+        width: 33.33% !important;
+    }
+    .col-m-5{
+        width: 41.66% !important;
+    }
+    .col-m-6{
+        width: 50% !important;
+    }
+    .col-m-7{
+        width: 58.33% !important;
+    }
+    .col-m-8{
+        width: 66.66% !important;
+    }
+    .col-m-9{
+        width: 74.99% !important;
+    }
+    .col-m-10{
+        width: 83.32% !important;
+    }vh
+    .col-m-11{
+        width: 91.65% !important;
+    }
+    .col-m-12{
+        width: 100% !important;
+    }
+     /* NAVBAR */
+header{
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 10vh;
+    background-color: red;
+    text-align: left;
+    /* padding-left: 4.33%; */
+}
+nav{
+    display: table;
+    /* margin: auto; */
+    /* margin-top: 5vh; */
+    background-color: transparent;
+    -webkit-transition: margin-left .2s;
+    text-align: center;
+}
+ul{
+    display: block;
+    float: left;
+    list-style: none;
+    color: black;
+    
+}
+ul li{
+    float: left;
+    margin-top: 2.5vh;
+    padding: 1vh;
+    display: block;
+    font-size: .8em;
+    /* text-align: center; */
+}
+.lisi{
+    display: block;
+    margin-left: 1.5vh;
+}
+.lino{
+display: none;
+}
+#img{
+    float: left;
+    display: block;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 1vh;
+}
+/* FINNAVBAR */
+.conta{
+    float: left;
+    background-color: teal;
+    height: auto;
+    padding-right: 4.33% !important; 
+    padding-left: 4.33% !important;
+    /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=0db0d9ff&noise=4d4d4b&density=37&opacity=23); */
+    
+}
+
+.rojo{
+    float: left;
+    background-color: red;
+    /* background: url("../img/mtw.jpg"); */
+    height: 35vh;
+}
+    .slo1{
+        margin-left: 4.33%;
+        float: left;
+        height: 25vh;
+        background-color: cadetblue;
+        margin-top: 5vh;
+    }
+    .slo2{
+        float: left;
+        height: 25vh;
+        background-color: cornsilk;
+    }
+    .clean1{
+        margin-top: 10vh;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .clean2{
+        margin-top: 10vh;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .azul{
+        background-color: lightblue;
+        height: 65vh;
+        margin-top: 5vh;
+        /* padding-left: 8.33%;
+        padding-right: 8.33%; */
+    }
+    .negro{
+        background-color: blueviolet;
+        height: auto;
+        float: left;
+        text-align: center;
+        /* margin-right: 8.33%; */
+        margin-top: 2vh;
+    }
+    .cafe{
+        background-color: brown;
+        height: 40vh;
+        float: left;
+        text-align: center;
+        /* margin-right: 8.33%; */
+        margin-top: 2vh;
+    }
+    .rosa{
+        text-align: center;
+        background-color: pink;
+        height: 40vh;
+        float: left;
+        margin-top: 2vh;
+    }
+    .amarillo{
+        background-color: yellow;
+        height: 96vh;
+        margin-top: 5vh;
+    }
+        .secama1{
+            background-color: darksalmon;
+            float: left;
+            height: 21vh;
+            margin: 0;
+        }
+        .secama2{
+            margin-top: 2vh;
+            background-color: rebeccapurple;
+            float: left;
+            height: 35vh;
+        }
+        .secama3{
+            margin-top: 2vh;
+            background-color: grey;
+            float: left;
+            height: 35vh;
+            /* margin-right: 0; */
+        }
+        .secama4{
+            margin-top: 2vh;
+            background-color: coral;
+            float: left;
+            height: 35vh;
+            /* margin-right: 1%; */
+        }
+        .morado{
+            /* background-color: purple; */
+            height: 42vh;
+            margin-top: 5vh;        
+        }
+        .slideshow{
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .slider li{
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        .fo{
+            float: left;
+            padding: 0;
+            background-color: gray;
+            height: auto;
+            margin-top: 0vh;
+        }
+            .titu{
+                padding-top: 2vh;
+                text-align: center;
+                margin-top: 2vh;
+                float: left;
+                /* background-color: coral; */
+                height: 15vh;
+            }
+            .contact{
+                padding-top: 4vh;
+                font-size: 1em;
+                text-align: left;
+                float: left;
+                /* background-color: darkcyan; */
+                height: 35vh;
+                margin: 0;
+            }
+            .mapa{
+                float: left;
+                height: 40vh;
+                margin: 0;
+                padding-top: 3vh;
+            }
+            .google-maps {
+                position: relative;
+                height: 35vh;
+            }
+        .ar{
+            color: black;
+        }
+    
+}
+
+/* Para pc/lap */
+@media only screen and (min-width:1024px){
+    .col-l-1{
+        width: 8.33% !important;
+    }
+    .col-l-2{
+        width: 16.66% !important;
+    }
+    .col-l-3{
+        width: 25% !important;
+    }
+    .col-l-4{
+        width: 33.33% !important;
+    }
+    .col-l-5{
+        width: 41.66% !important;
+    }
+    .col-l-6{
+        width: 50% !important;
+    }
+    .col-l-7{
+        width: 58.33% !important;
+    }
+    .col-l-8{
+        width: 66.66% !important;
+    }
+    .col-l-9{
+        width: 74.99% !important;
+    }
+    .col-l-10{
+        width: 83.32% !important;
+    }vh
+    .col-l-11{
+        width: 91.65% !important;
+    }
+    .col-l-12{
+        width: 100% !important;
+    }
+
+
+    /* NAVBAR */
+header{
+    float: left;
+    /* position: relative; */
+    position: relative;
+    z-index: 1;
+    height: 10vh;
+    background-color: red;
+    -webkit-transition: background-color .2s;
+    text-align: center;
+    padding-left: 4.33%;
+}
+nav{
+    display: table;
+    margin: auto;
+    /* margin-top: 5vh; */
+    background-color: transparent;
+    -webkit-transition: margin-left .2s;
+    text-align: center;
+}
+ul{
+    display: block;
+    float: left;
+    list-style: none;
+    color: black;
+    
+}
+ul li{
+    float: left;
+    margin: 1.5vh;
+    padding: 2vh;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+.lisi{
+    display: block;
+    margin-left: 3vh;
+}
+.lino{
+display: none;
+}
+#img{
+    float: left;
+    display: block;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 20vh;
+    -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
+}
+#ham{
+    display: none;
+}
+#menu{
+    display: none;
+}
+/* FINNAVBAR */
+    
+    .conta{
+        float: left;
+        background-color: teal;
+        height: 200vh;
+        padding-right: 8.33% !important; 
+        padding-left: 8.33% !important;
+        /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=0db0d9ff&noise=4d4d4b&density=37&opacity=23); */
+        
+    }
+    .rojo{
+        float: left;
+        background-color: red;
+        /* background: url("../img/mtw.jpg"); */
+        height: 60vh;
+    }
+        .slo1{
+            margin-left: 4.33%;
+            margin-top: 5vh;
+            float: left;
+            height: 50vh;
+            /* background-color: cadetblue; */
+            margin-right: 4.33%;
+        }
+        .clean1{
+            margin-top: 21vh;
+            font-size: 4em;
+            margin-left: -5vh;
+        }
+        .clean2{
+            margin-top: 21vh;
+            font-size: 4em;
+            margin-left: 5vh;
+        }
+        .slo2{
+            margin-top: 5vh;
+            float: left;
+            height: 50vh;
+            /* background-color: cornsilk; */
+        }
+    .azul{
+        background-color: lightblue;
+        height: 60vh;
+        margin-top: 5vh;
+        padding-left: 8.33%;
+        padding-right: 8.33%;
+        
+    }
+    .negro{
+        background-color: blueviolet;
+        height: 40vh;
+        float: left;
+        margin-right: 8.33%;
+        margin-top: 10vh;
+    }
+    .cafe{
+        background-color: brown;
+        height: 40vh;
+        float: left;
+        margin-right: 8.33%;
+        margin-top: 10vh;
+    }
+    .rosa{
+
+        background-color: pink;
+        height: 40vh;
+        float: left;
+        margin-top: 10vh;
+    }
+    .amarillo{
+        padding-left: 4.33%;
+        padding-right: 4.33%;
+        background-color: yellow;
+        height: 60vh;
+        margin-top: 5vh;
+    }
+        .secama1{
+            margin-top: 5vh;
+            background-color: darksalmon;
+            float: left;
+            height: 21vh;
+            margin-right: 16.66%;
+        }
+        .secama2{
+            margin-top: 5vh;
+            background-color: rebeccapurple;
+            float: left;
+            height: 21vh;
+        }
+        .secama3{
+            margin-top: 5vh;
+            background-color: grey;
+            float: left;
+            height: 21vh;
+            margin-right: 16.66%;
+        }
+        .secama4{
+            margin-top: 5vh;
+            background-color: coral;
+            float: left;
+            height: 21vh;
+        }
+    .morado{
+        /* background-color: purple; */
+        height: 55vh;
+        margin-top: 5vh;        
+    }
+    .slideshow{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .slider li{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .slider .caption{
+        position: absolute;
+        height: 100%;
+        top: 40vh;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        text-align: center;
+        color: #fff;
+    }
+    
+    .slider .caption h1{
+        font-size: 50px;
+    }
+    
+    .slider .caption p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .fo{
+        float: left;
+        padding: 0;
+        background-color: gray;
+        height: 40vh;
+        margin-top: -5vh;
+    }
+        .titu{
+            padding-top: 5vh;
+            text-align: center;
+            margin-top: 10vh;
+            float: left;
+            /* background-color: coral; */
+            height: 20vh;
+        }
+        .contact{
+            padding-right: 2vh;
+            text-align: right;
+            margin-top: 5vh;
+            float: left;
+            /* background-color: darkcyan; */
+            height: 20vh;
+        }
+        .mapa{
+            padding-top: 2.5vh;
+            float: left;
+            height: 40vh;
+            margin: 0;
+        }
+        .google-maps {
+            position: relative;
+            height: 35vh;
+            margin-left: -1.5vh;
+        }
+    .ar{
+        color: black;
+    }
+}
