@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	<link rel="icon" type="image/png" href="img/fav.png" sizes="32x32">
 <head>
 	<title>MAYITA | LOGIN</title>
 	<meta charset="UTF-8">

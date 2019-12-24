@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 /* Móvil */
 .col-s-1{
     width: 8.33% !important; 
@@ -42,57 +44,39 @@
 }
 
 /* NAVBAR */
-header{
+.prueba{
+    background-color: burlywood;
     float: left;
-    position: relative ;
     height: 10vh;
-    background-color: transparent;
-    -webkit-transition: background-color .2s;
-}
-nav{
-    float: left;
-    position: relative;
-    /* margin: auto; */
-    height: 10vh;
-    background-color: transparent;
-    -webkit-transition: margin-left .2s;
-}
-ul{
-    position: relative;
-    display: block;
-}
-ul li{
-    position: relative;
-    float: left;
-    /* margin: 1.5vh; */
-padding-left: 20vh;
-    display: block;
     text-align: center;
 }
-.lisi{
+.cl1{
     display: none;
 }
-.lino{
-    list-style: none;
+.cl2{
+    display: none;
+}
+.cl3{
     float: left;
-    
-    font-size: 4vh;
-}
-#img{
-    margin-top: -.5vh;
-    margin-left: 5vh;
-    text-align: right;
-}
-#ham{
-    margin-top: -2vh;
+    /* background-color: aquamarine; */
+    height: 10vh;
     display: block;
-    position: relative;
+}
+.cl4{
+    display: none;
+}
+.cl5{
+    display: none;
+}
+.cl6{
     float: left;
+    background-color: firebrick;
+    padding-top: 2.5vh;
+    height: 10vh;
+    display: block;
 }
-.azul2{
-    margin-top: 2vh;
-    text-align: right;
-}
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
 /* FINNAVBAR */
 
 
@@ -139,11 +123,13 @@ padding-left: 20vh;
     background-color: lightblue;
     height: auto;
     margin-top: 5vh;
+    float: left;
 }
 .amarillo{
     background-color: yellow;
     height: auto;
     margin-top: 5vh;
+    float: left;
 }
 .secama1{
     background-color: darksalmon;
@@ -152,29 +138,31 @@ padding-left: 20vh;
     margin-right: 16.66%;
 }
 .secama2{
-    margin-top: 5vh;
+    margin-top: 2.5vh;
     background-color: rebeccapurple;
     float: left;
     height: auto;
 }
 .secama3{
-    margin-top: 5vh;
+    margin-top: 2.5vh;
     background-color: grey;
     float: left;
     height: auto;
     margin-right: 16.66%;
 }
 .secama4{
-    margin-top: 5vh;
+    margin-top: 2.5vh;
     background-color: coral;
     float: left;
     height: auto;
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
 }
 .morado{
+    float: left;
     /* background-color: purple; */
     height: auto;
     margin-top: 5vh;
+    margin-bottom: 2vh;
 }
 .fo{
     /* margin-top: 10vh; */
@@ -193,7 +181,7 @@ padding-left: 20vh;
 }
 .contact{
     padding-right: 2vh;
-    text-align: right;
+    text-align: center;
     margin-top: 5vh;
     float: left;
     /* background-color: darkcyan; */
@@ -223,6 +211,9 @@ padding-left: 20vh;
 .ar{
     color: black;
 }
+
+
+
 
 
 /* Para tablet */
@@ -264,53 +255,71 @@ padding-left: 20vh;
         width: 100% !important;
     }
      /* NAVBAR */
-header{
-    float: left;
-    position: relative;
-    z-index: 1;
-    height: 10vh;
-    background-color: red;
-    text-align: left;
-    /* padding-left: 4.33%; */
-}
-nav{
-    display: table;
-    /* margin: auto; */
-    /* margin-top: 5vh; */
-    background-color: transparent;
-    -webkit-transition: margin-left .2s;
-    text-align: center;
-}
-ul{
-    display: block;
-    float: left;
-    list-style: none;
-    color: black;
-    
-}
-ul li{
-    float: left;
-    margin-top: 2.5vh;
-    padding: 1vh;
-    display: block;
-    font-size: .8em;
-    /* text-align: center; */
-}
-.lisi{
-    display: block;
-    margin-left: 1.5vh;
-}
-.lino{
-display: none;
-}
-#img{
-    float: left;
-    display: block;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 1vh;
-}
+
+     .prueba{
+        background-color: red;
+        float: left;
+        height: 10vh;
+        display: block;
+        text-align: center;
+        z-index: 2;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    .cl1{
+        float: left;
+        background-color: cadetblue;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl2{
+        float: left;
+        background-color: brown;
+        height: 10vh; 
+        display: block;
+        padding-top: 2.5vh;
+    }
+    .cl3{
+        float: left;
+        /* background-color: aquamarine; */
+        height: 60vh;
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+    .cl4{
+        float: left;
+        background-color: hotpink;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl5{
+        float: left;
+        background-color: honeydew;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl6{
+        float: left;
+        background-color: firebrick;
+        height: 10vh;
+        display: block;
+        padding-top: 2.5vh;
+    }
+    .material-icons.md-48 { font-size: 48px; }
+    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+    .img{
+        float: left;
+        margin-left: 6vh;
+        margin-top: 20vh;
+        height: 15vh;
+        -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
+    }
 /* FINNAVBAR */
+
 .conta{
     float: left;
     background-color: teal;
@@ -350,8 +359,9 @@ display: none;
         font-size: 1.5em;
     }
     .azul{
+        float: left;
         background-color: lightblue;
-        height: 65vh;
+        height: auto;
         margin-top: 5vh;
         /* padding-left: 8.33%;
         padding-right: 8.33%; */
@@ -366,7 +376,7 @@ display: none;
     }
     .cafe{
         background-color: brown;
-        height: 40vh;
+        height: auto;
         float: left;
         text-align: center;
         /* margin-right: 8.33%; */
@@ -375,42 +385,44 @@ display: none;
     .rosa{
         text-align: center;
         background-color: pink;
-        height: 40vh;
+        height: auto;
         float: left;
         margin-top: 2vh;
     }
     .amarillo{
+        float: left;
         background-color: yellow;
-        height: 96vh;
+        height: auto;
         margin-top: 5vh;
     }
         .secama1{
             background-color: darksalmon;
             float: left;
-            height: 21vh;
+            height: auto;
             margin: 0;
         }
         .secama2{
             margin-top: 2vh;
             background-color: rebeccapurple;
             float: left;
-            height: 35vh;
+            height: auto;
         }
         .secama3{
             margin-top: 2vh;
             background-color: grey;
             float: left;
-            height: 35vh;
+            height: auto;
             /* margin-right: 0; */
         }
         .secama4{
             margin-top: 2vh;
             background-color: coral;
             float: left;
-            height: 35vh;
+            height: auto;
             /* margin-right: 1%; */
         }
         .morado{
+            float: left;
             /* background-color: purple; */
             height: 42vh;
             margin-top: 5vh;        
@@ -441,17 +453,17 @@ display: none;
                 height: 15vh;
             }
             .contact{
-                padding-top: 4vh;
+                padding-top: 8vh;
                 font-size: 1em;
                 text-align: left;
                 float: left;
                 /* background-color: darkcyan; */
-                height: 35vh;
+                height: auto;
                 margin: 0;
             }
             .mapa{
                 float: left;
-                height: 40vh;
+                height: auto;
                 margin: 0;
                 padding-top: 3vh;
             }
@@ -462,6 +474,10 @@ display: none;
         .ar{
             color: black;
         }
+
+
+
+    
     
 }
 
@@ -506,62 +522,75 @@ display: none;
 
 
     /* NAVBAR */
-header{
-    float: left;
-    /* position: relative; */
-    position: relative;
-    z-index: 1;
-    height: 10vh;
-    background-color: red;
-    -webkit-transition: background-color .2s;
-    text-align: center;
-    padding-left: 4.33%;
-}
-nav{
-    display: table;
-    margin: auto;
-    /* margin-top: 5vh; */
-    background-color: transparent;
-    -webkit-transition: margin-left .2s;
-    text-align: center;
-}
-ul{
-    display: block;
-    float: left;
-    list-style: none;
-    color: black;
     
-}
-ul li{
-    float: left;
-    margin: 1.5vh;
-    padding: 2vh;
-    display: block;
-    font-size: 1.5em;
-    text-align: center;
-}
-.lisi{
-    display: block;
-    margin-left: 3vh;
-}
-.lino{
-display: none;
-}
-#img{
-    float: left;
-    display: block;
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 20vh;
-    -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
-}
-#ham{
-    display: none;
-}
-#menu{
-    display: none;
-}
+    .prueba{
+        background-color: red;
+        float: left;
+        height: 10vh;
+        display: block;
+        text-align: center;
+        z-index: 2;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    .cl1{
+        float: left;
+        background-color: cadetblue;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl2{
+        float: left;
+        background-color: brown;
+        height: 10vh; 
+        display: block;
+        padding-top: 2.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl3{
+        float: left;
+        /* background-color: aquamarine; */
+        height: 60vh;
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+    .cl4{
+        float: left;
+        background-color: hotpink;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl5{
+        float: left;
+        background-color: honeydew;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl6{
+        float: left;
+        background-color: firebrick;
+        height: 10vh;
+        padding-top: 2.5vh;
+    }
+    .material-icons.md-48 { font-size: 48px; }
+    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+    .img{
+        float: left;
+        margin-left: 42vh;
+        margin-top: 20vh;
+        height: 40vh;
+        -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
+    }
 /* FINNAVBAR */
+
+
     
     .conta{
         float: left;
@@ -721,6 +750,7 @@ display: none;
             float: left;
             /* background-color: darkcyan; */
             height: 20vh;
+            padding-top: 3vh;
         }
         .mapa{
             padding-top: 2.5vh;

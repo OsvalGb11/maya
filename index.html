@@ -14,24 +14,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="col-s-12 col-m-12 col-l-12">
-        <nav class="col-s-12 col-m-12 col-l-12">
-            <ul class="col-m-4 col-l-4">
-                <a href="#sec0" class="ar"><li class="lisi">Inicio</li></a>
-                <a href="#sec1" class="ar"><li class="lisi">¿Quiénes somos?</li></a>
-            </ul>
-            <ul class="col-s-12 col-m-4 col-l-4"><img src="img/logo.png" id="img" ></ul>
-            <ul class="col-s-6 col-m-4 col-l-4">
-                    <a href="#sec2" class="ar"><li class="lisi">Proyecto</li></a>
-                    <a href="#sec3" class="ar"><li class="lisi">Contacto</li></a>
-                    <a href="Login.html" class="ar"><li class="lisi"><i class="material-icons">account_circle</i></li></a></a>
-            </ul>
-            <ul>
-                <a href="Login.html" class="ar"><li class="col-s-6 lino"><i class="material-icons">account_circle</i></li></a>
-            </ul>
-        </nav>
-    </header>
+        <!-- Navbar -->
+    <div class="col-s-12 col-m-12 col-l-12 prueba">
+        <div class="col-m-2 col-l-1 cl1"><a href="#sec0" class="ar">INICIO</a></div>
+        <div class="col-m-2 col-l-1 cl2"><a href="#sec1" class="ar">¿QUIÉNES SOMOS?</a></div>
+        <div class="col-s-6 col-m-3 col-l-7 cl3"><img src="img/Logo.png" class="img"></div>
+        <div class="col-m-2 col-l-1 cl4"><a href="#sec2" class="ar">PROYECTO</a></div>
+        <div class="col-m-2 col-l-1 cl5"><a href="#sec3" class="ar">CONTACTO</a></div>
+        <div class="col-s-6 col-m-1 col-l-1 cl6"><a href="Login.html" class="ar"><i class="material-icons md-48 md-light">account_circle</i></a></div>
+    </div>
+    <!-- Termina navbar --> 
 <a name="sec0" ></a>
     <div class="container-fluid rojo">
         <div class="col-s-12 col-m-5 col-l-5 slo1">
@@ -42,26 +34,25 @@
         </div>
     </div>
 
-    <!-- Termina navbar --> 
     <div class="container-fluid conta">
     <a name="sec1"></a>
     <div class="col-s-12 col-m-12 col-l-11 azul">
             <div class="col-m-12 col-l-3 negro">
                 <div>
                     <h3>¿Quiénes somos?</h3><br>
-                    <label >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta quis illum voluptatem maiores dolore aperiam officiis reprehenderit adipisci ipsa culpa voluptatum sapiente in blanditiis, placeat sit! Sed, cupiditate corrupti!</label>
+                    <label>Somos una organización preocupada por el estado de nuestro planeta, ayudando en la creación de nuesvas tecnoclogías para disminuir el número de contaminación de nuestro ecosistema</label>
                 </div>
             </div>
             <div class="col-s-12 col-m-6 col-l-4 cafe">
                     <div>
                         <h3>Misión</h3><br>
-                        <label >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta quis illum voluptatem maiores dolore aperiam officiis reprehenderit adipisci ipsa culpa voluptatum sapiente in blanditiis, placeat sit! Sed, cupiditate corrupti!</label>
+                        <label>Desarrollar la tecnología que ayuda al ecosistema a mejorar su estado de calidad, con la finalidad de disminuir la contaminación del ecosistema. </label>
                     </div>
             </div>
             <div class="col-s-12 col-m-6 col-l-3 rosa">
                     <div>
                         <h3>Visión</h3><br>
-                        <label >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta quis illum voluptatem maiores dolore aperiam officiis reprehenderit adipisci ipsa culpa voluptatum sapiente in blanditiis, placeat sit! Sed, cupiditate corrupti!</label>
+                        <label >Posicionarse entre las empresas más importantes que se dediquen a la sustentabilidad y recuperación del planeta, contribuyendo a la creación de una nueva ideología para transformar la manera de actuar de las personas y de las mismas empresas contaminadoras para reducir el porcentaje de contaminación del agua en lagos, ríos y mares.</label>
                     </div>
             </div>
     </div>
@@ -69,7 +60,7 @@
         <div class="ccontainer-fluid amarillo">
             <div class="col-s-12 col-m-12 col-l-5 secama1">
                 <h1>Valores</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit possimus error cum rem sint quis numquam a animi magni ratione odit id incidunt harum, minus enim facilis suscipit! Nemo, corporis!</p>
+                <p>Respeto, Honestidad, Integración, Confiabilidad, Impacto social, Desarrollo</p>
             </div>
             <div class="col-s-12 col-m-12 col-l-5 secama2">
                 <h1>Propósito</h1>
@@ -77,11 +68,11 @@
             </div>
             <div class="col-s-12 col-m-5 col-l-5 secama3">
                 <h1>Proyectos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dignissimos illo delectus earum ex aliquid doloribus recusandae! Incidunt delectus voluptatem optio a, architecto aliquam eligendi. Iste tempore sed ex excepturi?</p>
+                <p>Nos enfocamos en la creación de tecnología que pueda contribuir de una buena manera a la disminución de residuos en las zonas marítimas</p>
             </div>
             <div class="col-s-12 col-m-5 col-l-5 secama4">
                 <h1>¿Mayita?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ut ab tenetur! Aliquam eum, sit velit, debitis corporis eius, facilis ea magni fuga omnis eaque maiores accusamus a laborum dolores?</p>
+                <p>Es el nombre de nuestro primer proyecto enfocado en la recolección de basura en las zonas costeras e incluso lagos que contienen un gran número de contamicación en su interior</p>
             </div>
         </div>
 
