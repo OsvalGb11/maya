@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* Móvil */
+.col-s-1{
+    width: 8.33% !important; 
+}
+.col-s-2{
+    width: 16.66% !important;
+}
+.col-s-3{
+    width: 25% !important; 
+}
+.col-s-4{
+    width: 33.33% !important;
+}
+.col-s-5{
+    width: 41.66% !important;
+}
+.col-s-6{
+    width: 50% !important;
+}
+.col-s-7{
+    width: 58.33% !important;
+}
+.col-s-8{
+    width: 66.66% !important;
+}
+.col-s-9{
+    width: 74.99% !important;
+}
+.col-s-10{
+    width: 83.32% !important;
+}
+.col-s-11{
+    width: 91.65% !important;
+}
+.col-s-12{
+    width: 100% !important;
+}
+
+/* NAVBAR */
+.prueba{
+    background-color: burlywood;
+    float: left;
+    height: 10vh;
+    text-align: center;
+}
+.cl1{
+    display: none;
+}
+.cl2{
+    display: none;
+}
+.cl3{
+    float: left;
+    /* background-color: aquamarine; */
+    height: 10vh;
+    display: block;
+}
+.cl4{
+    display: none;
+}
+.cl5{
+    display: none;
+}
+.cl6{
+    float: left;
+    background-color: firebrick;
+    padding-top: 2.5vh;
+    height: 10vh;
+    display: block;
+}
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+/* FINNAVBAR */
+
+
+
+
+.conta{
+    float: left;
+    background-color: teal;
+    height: auto;
+    padding-right: 2.33%;
+    padding-left: 2.33%;
+}
+.rojo{
+
+    float: left;
+    background-color: red;
+    /* background: url("../img/mtw.jpg");  */
+    height: auto;
+}
+.slo1{
+    margin-top: 2vh;
+    float: left;
+    height: auto;
+    /* background-color: cadetblue; */
+    margin-right: 4.33%;
+}
+.clean1{
+    /* margin-top: 22.5vh; */
+    font-size: 3em;
+    /* margin-left: 15vh; */
+}
+.clean2{
+    /* margin-top: 22.5vh; */
+    font-size: 3em;
+    /* margin-left: 25vh; */
+}
+.slo2{
+    margin-top: 5vh;
+    float: left;
+    height: auto;
+    /* background-color: cornsilk; */
+}
+.azul{
+    background-color: lightblue;
+    height: auto;
+    margin-top: 5vh;
+    float: left;
+}
+.amarillo{
+    background-color: yellow;
+    height: auto;
+    margin-top: 5vh;
+    float: left;
+}
+.secama1{
+    background-color: darksalmon;
+    float: left;
+    height: auto;
+    margin-right: 16.66%;
+}
+.secama2{
+    margin-top: 2.5vh;
+    background-color: rebeccapurple;
+    float: left;
+    height: auto;
+}
+.secama3{
+    margin-top: 2.5vh;
+    background-color: grey;
+    float: left;
+    height: auto;
+    margin-right: 16.66%;
+}
+.secama4{
+    margin-top: 2.5vh;
+    background-color: coral;
+    float: left;
+    height: auto;
+    /* margin-bottom: 5vh; */
+}
+.morado{
+    float: left;
+    /* background-color: purple; */
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.fo{
+    /* margin-top: 10vh; */
+    float: left;
+    padding: 0;
+    background-color: gray;
+    height: auto;
+}
+.titu{
+    padding-top: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+    float: left;
+    /* background-color: coral; */
+    height: auto;
+}
+.contact{
+    padding-right: 2vh;
+    text-align: center;
+    margin-top: 5vh;
+    float: left;
+    /* background-color: darkcyan; */
+    height: auto;
+}
+.mapa{
+    padding-left: 1vh;
+    float: left;
+    height: auto;
+    margin-top: 2vh;
+    padding-top: 3vh;
+}
+.google-maps {
+    position: relative;
+    height: 30vh;
+}
+.slideshow{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.slider li{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.ar{
+    color: black;
+}
+
+
+
+
+
+/* Para tablet */
+@media only screen and (min-width:720px){
+    .col-m-1{
+        width: 8.33% !important;
+    }
+    .col-m-2{
+        width: 16.66% !important;
+    }
+    .col-m-3{
+        width: 25% !important;
+    }
+    .col-m-4{
+        width: 33.33% !important;
+    }
+    .col-m-5{
+        width: 41.66% !important;
+    }
+    .col-m-6{
+        width: 50% !important;
+    }
+    .col-m-7{
+        width: 58.33% !important;
+    }
+    .col-m-8{
+        width: 66.66% !important;
+    }
+    .col-m-9{
+        width: 74.99% !important;
+    }
+    .col-m-10{
+        width: 83.32% !important;
+    }vh
+    .col-m-11{
+        width: 91.65% !important;
+    }
+    .col-m-12{
+        width: 100% !important;
+    }
+     /* NAVBAR */
+
+     .prueba{
+        background-color: red;
+        float: left;
+        height: 10vh;
+        display: block;
+        text-align: center;
+        z-index: 2;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    .cl1{
+        float: left;
+        background-color: cadetblue;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl2{
+        float: left;
+        background-color: brown;
+        height: 10vh; 
+        display: block;
+        padding-top: 2.5vh;
+    }
+    .cl3{
+        float: left;
+        /* background-color: aquamarine; */
+        height: 60vh;
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+    .cl4{
+        float: left;
+        background-color: hotpink;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl5{
+        float: left;
+        background-color: honeydew;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+    }
+    .cl6{
+        float: left;
+        background-color: firebrick;
+        height: 10vh;
+        display: block;
+        padding-top: 2.5vh;
+    }
+    .material-icons.md-48 { font-size: 48px; }
+    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+    .img{
+        float: left;
+        margin-left: 6vh;
+        margin-top: 20vh;
+        height: 15vh;
+        -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
+    }
+/* FINNAVBAR */
+
+.conta{
+    float: left;
+    background-color: teal;
+    height: auto;
+    padding-right: 4.33% !important; 
+    padding-left: 4.33% !important;
+    /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=0db0d9ff&noise=4d4d4b&density=37&opacity=23); */
+    
+}
+
+.rojo{
+    float: left;
+    background-color: red;
+    /* background: url("../img/mtw.jpg"); */
+    height: 35vh;
+}
+    .slo1{
+        margin-left: 4.33%;
+        float: left;
+        height: 25vh;
+        background-color: cadetblue;
+        margin-top: 5vh;
+    }
+    .slo2{
+        float: left;
+        height: 25vh;
+        background-color: cornsilk;
+    }
+    .clean1{
+        margin-top: 10vh;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .clean2{
+        margin-top: 10vh;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .azul{
+        float: left;
+        background-color: lightblue;
+        height: auto;
+        margin-top: 5vh;
+        /* padding-left: 8.33%;
+        padding-right: 8.33%; */
+    }
+    .negro{
+        background-color: blueviolet;
+        height: auto;
+        float: left;
+        text-align: center;
+        /* margin-right: 8.33%; */
+        margin-top: 2vh;
+    }
+    .cafe{
+        background-color: brown;
+        height: auto;
+        float: left;
+        text-align: center;
+        /* margin-right: 8.33%; */
+        margin-top: 2vh;
+    }
+    .rosa{
+        text-align: center;
+        background-color: pink;
+        height: auto;
+        float: left;
+        margin-top: 2vh;
+    }
+    .amarillo{
+        float: left;
+        background-color: yellow;
+        height: auto;
+        margin-top: 5vh;
+    }
+        .secama1{
+            background-color: darksalmon;
+            float: left;
+            height: auto;
+            margin: 0;
+        }
+        .secama2{
+            margin-top: 2vh;
+            background-color: rebeccapurple;
+            float: left;
+            height: auto;
+        }
+        .secama3{
+            margin-top: 2vh;
+            background-color: grey;
+            float: left;
+            height: auto;
+            /* margin-right: 0; */
+        }
+        .secama4{
+            margin-top: 2vh;
+            background-color: coral;
+            float: left;
+            height: auto;
+            /* margin-right: 1%; */
+        }
+        .morado{
+            float: left;
+            /* background-color: purple; */
+            height: 42vh;
+            margin-top: 5vh;        
+        }
+        .slideshow{
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .slider li{
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        .fo{
+            float: left;
+            padding: 0;
+            background-color: gray;
+            height: auto;
+            margin-top: 0vh;
+        }
+            .titu{
+                padding-top: 2vh;
+                text-align: center;
+                margin-top: 2vh;
+                float: left;
+                /* background-color: coral; */
+                height: 15vh;
+            }
+            .contact{
+                padding-top: 8vh;
+                font-size: 1em;
+                text-align: left;
+                float: left;
+                /* background-color: darkcyan; */
+                height: auto;
+                margin: 0;
+            }
+            .mapa{
+                float: left;
+                height: auto;
+                margin: 0;
+                padding-top: 3vh;
+            }
+            .google-maps {
+                position: relative;
+                height: 35vh;
+            }
+        .ar{
+            color: black;
+        }
+
+
+
+    
+    
+}
+
+/* Para pc/lap */
+@media only screen and (min-width:1024px){
+    .col-l-1{
+        width: 8.33% !important;
+    }
+    .col-l-2{
+        width: 16.66% !important;
+    }
+    .col-l-3{
+        width: 25% !important;
+    }
+    .col-l-4{
+        width: 33.33% !important;
+    }
+    .col-l-5{
+        width: 41.66% !important;
+    }
+    .col-l-6{
+        width: 50% !important;
+    }
+    .col-l-7{
+        width: 58.33% !important;
+    }
+    .col-l-8{
+        width: 66.66% !important;
+    }
+    .col-l-9{
+        width: 74.99% !important;
+    }
+    .col-l-10{
+        width: 83.32% !important;
+    }vh
+    .col-l-11{
+        width: 91.65% !important;
+    }
+    .col-l-12{
+        width: 100% !important;
+    }
+
+
+    /* NAVBAR */
+    
+    .prueba{
+        background-color: red;
+        float: left;
+        height: 10vh;
+        display: block;
+        text-align: center;
+        z-index: 2;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    .cl1{
+        float: left;
+        background-color: cadetblue;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl2{
+        float: left;
+        background-color: brown;
+        height: 10vh; 
+        display: block;
+        padding-top: 2.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl3{
+        float: left;
+        /* background-color: aquamarine; */
+        height: 60vh;
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+    .cl4{
+        float: left;
+        background-color: hotpink;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl5{
+        float: left;
+        background-color: honeydew;
+        height: 10vh;
+        display: block;
+        padding-top: 3.5vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+    .cl6{
+        float: left;
+        background-color: firebrick;
+        height: 10vh;
+        padding-top: 2.5vh;
+    }
+    .material-icons.md-48 { font-size: 48px; }
+    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+    .img{
+        float: left;
+        margin-left: 42vh;
+        margin-top: 20vh;
+        height: 40vh;
+        -webkit-transition: width .2s, height .2s, margin-right .2s , margin-top .2s;
+    }
+/* FINNAVBAR */
+
+
+    
+    .conta{
+        float: left;
+        background-color: teal;
+        height: 200vh;
+        padding-right: 8.33% !important; 
+        padding-left: 8.33% !important;
+        /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=0db0d9ff&noise=4d4d4b&density=37&opacity=23); */
+        
+    }
+    .rojo{
+        float: left;
+        background-color: red;
+        /* background: url("../img/mtw.jpg"); */
+        height: 60vh;
+    }
+        .slo1{
+            margin-left: 4.33%;
+            margin-top: 5vh;
+            float: left;
+            height: 50vh;
+            /* background-color: cadetblue; */
+            margin-right: 4.33%;
+        }
+        .clean1{
+            margin-top: 21vh;
+            font-size: 4em;
+            margin-left: -5vh;
+        }
+        .clean2{
+            margin-top: 21vh;
+            font-size: 4em;
+            margin-left: 5vh;
+        }
+        .slo2{
+            margin-top: 5vh;
+            float: left;
+            height: 50vh;
+            /* background-color: cornsilk; */
+        }
+    .azul{
+        background-color: lightblue;
+        height: 60vh;
+        margin-top: 5vh;
+        padding-left: 8.33%;
+        padding-right: 8.33%;
+        
+    }
+    .negro{
+        background-color: blueviolet;
+        height: 40vh;
+        float: left;
+        margin-right: 8.33%;
+        margin-top: 10vh;
+    }
+    .cafe{
+        background-color: brown;
+        height: 40vh;
+        float: left;
+        margin-right: 8.33%;
+        margin-top: 10vh;
+    }
+    .rosa{
+
+        background-color: pink;
+        height: 40vh;
+        float: left;
+        margin-top: 10vh;
+    }
+    .amarillo{
+        padding-left: 4.33%;
+        padding-right: 4.33%;
+        background-color: yellow;
+        height: 60vh;
+        margin-top: 5vh;
+    }
+        .secama1{
+            margin-top: 5vh;
+            background-color: darksalmon;
+            float: left;
+            height: 21vh;
+            margin-right: 16.66%;
+        }
+        .secama2{
+            margin-top: 5vh;
+            background-color: rebeccapurple;
+            float: left;
+            height: 21vh;
+        }
+        .secama3{
+            margin-top: 5vh;
+            background-color: grey;
+            float: left;
+            height: 21vh;
+            margin-right: 16.66%;
+        }
+        .secama4{
+            margin-top: 5vh;
+            background-color: coral;
+            float: left;
+            height: 21vh;
+        }
+    .morado{
+        /* background-color: purple; */
+        height: 55vh;
+        margin-top: 5vh;        
+    }
+    .slideshow{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .slider li{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .slider .caption{
+        position: absolute;
+        height: 100%;
+        top: 40vh;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        text-align: center;
+        color: #fff;
+    }
+    
+    .slider .caption h1{
+        font-size: 50px;
+    }
+    
+    .slider .caption p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .fo{
+        float: left;
+        padding: 0;
+        background-color: gray;
+        height: auto;
+        margin-top: -5vh;
+    }
+        .titu{
+            padding-top: 5vh;
+            text-align: center;
+            margin-top: 10vh;
+            float: left;
+            /* background-color: coral; */
+            height: 20vh;
+        }
+        .contact{
+            padding-right: 2vh;
+            text-align: right;
+            margin-top: 5vh;
+            float: left;
+            /* background-color: darkcyan; */
+            height: 20vh;
+            padding-top: 3vh;
+        }
+        .mapa{
+            padding-top: 2.5vh;
+            float: left;
+            height: 40vh;
+            margin: 0;
+        }
+        .google-maps {
+            position: relative;
+            height: 35vh;
+            margin-left: -1.5vh;
+        }
+    .ar{
+        color: black;
+    }
+}
