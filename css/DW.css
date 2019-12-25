@@ -732,7 +732,7 @@
         float: left;
         padding: 0;
         background-color: gray;
-        height: 40vh;
+        height: auto;
         margin-top: -5vh;
     }
         .titu{
